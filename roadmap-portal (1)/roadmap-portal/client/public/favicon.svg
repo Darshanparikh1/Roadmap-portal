@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- One flat brand fill, matching the wordmark tile. No gradient. -->
+  <rect width="32" height="32" rx="8" fill="#4f52fc"/>
+  <!-- The through-line: one path rising across the mark, with the shipped point called out. -->
+  <path d="M6 22.5 L13 22.5 L19 11.5 L26 11.5" fill="none" stroke="#fbfcff" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24.5" cy="11.5" r="3.6" fill="#fbfcff"/>
+</svg>

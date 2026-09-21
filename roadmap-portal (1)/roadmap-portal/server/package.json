@@ -1,0 +1,40 @@
+{
+  "name": "roadmap-portal-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Feature Request & Public Roadmap Portal — Express + MongoDB API",
+  "main": "src/server.js",
+  "scripts": {
+    "db:start": "node scripts/db.js start",
+    "db:stop": "node scripts/db.js stop",
+    "db:status": "node scripts/db.js status",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "seed:reset": "node src/seed.js --reset",
+    "test": "vitest run"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.5.1",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.24.4",
+    "morgan": "^1.12.1",
+    "multer": "^2.4.0",
+    "sanitize-html": "^2.17.7",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "supertest": "^7.2.2",
+    "vitest": "^5.0.1"
+  }
+}

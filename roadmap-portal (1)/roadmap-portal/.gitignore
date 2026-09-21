@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Builds
+dist/
+*.tsbuildinfo
+
+# Secrets and local config — never commit
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local MongoDB instance data (see docs/SETUP.md)
+.data/
