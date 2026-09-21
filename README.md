@@ -1,4 +1,4 @@
-# Roadmap-# Feature Request & Public Roadmap Portal
+Feature Request & Public Roadmap Portal
 
 A customer-feedback portal in the spirit of Canny and Featurebase: people post feature requests, upvote the ones they
 need, argue them out in threaded comments, and follow what the team accepted on a public three-column roadmap.
